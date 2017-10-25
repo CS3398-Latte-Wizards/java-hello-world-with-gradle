@@ -31,7 +31,6 @@ dependencies {
 }
 */
 
-
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'

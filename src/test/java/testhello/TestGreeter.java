@@ -49,7 +49,22 @@ public class TestGreeter {
 	  
 	  }
 
-}
+    }
+	
+	@Test
+   public void newestJAGreeterFail() 
+   // will test if a string is already in getname
+   {    g.setName("Juan");
+   
+		if(g.getName().isEmpty()){
+			System.out.print("getName() is empty");
+		}
+		else {
+			
+			System.out.print(g.sayHello()));
+		}
+		
+   }
 
    
   

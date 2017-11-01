@@ -20,7 +20,7 @@ public class TestGreeter {
       g = new Greeter();
    }
 
-  /* @Test
+   @Test
    public void testGreeterEmpty() 
    {
       assertEquals(g.getName(),"");
@@ -33,7 +33,7 @@ public class TestGreeter {
       g.setName("World War");
       assertEquals(g.getName(),"World War");
       assertEquals(g.sayHello(),"Hello World War!");
-   } */
+   } 
    
    @Test
    public void newestJLMGreeterPass() 
@@ -44,7 +44,7 @@ public class TestGreeter {
    }
    
    /*@Test
-   public void newest<JLM>GreeterFail() 
+   public void newestJLMGreeterFail() 
    {
       g.setName("Justin Massey");
       assertEquals(g.getName(),"");

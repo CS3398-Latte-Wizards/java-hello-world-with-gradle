@@ -54,15 +54,20 @@ public class TestGreeter {
 	@Test
    public void newestJAGreeterFail() 
    // will test if a string is already in getname
-   {    g.setName("Juan");
+   {   
+   
+      assertEquals(g.getName(),"Juan");
+	  System.out.print(g.sayHello());
+	  
+	  /*
+      assertEquals(g.sayHello(),"Hello Juan!");
    
 		if(g.getName().isEmpty()){
 			System.out.print("getName() is empty");
 		}
 		else {
 			
-			System.out.print(g.sayHello()));
-		}
+		} */
 		
    }
 

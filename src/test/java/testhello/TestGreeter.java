@@ -34,4 +34,20 @@ public class TestGreeter {
       assertEquals(g.getName(),"World War");
       assertEquals(g.sayHello(),"Hello World War!");
    }
+   
+   @Test
+   public void newtestDJWGreeterPass() 
+   {
+	   g.setName("This test should pass");
+	   assertEquals(g.getName(), "This test should pass");
+	   assertEquals(g.sayHello(), "Hello This test should pass!");
+   }
+   
+   @Test
+   public void newtestDJWGreeterFail() throws NullPointerException
+   {
+	   g.setName(null);
+	   assertEquals(g.getName(),"");
+	   assertEquals(g.sayHello(),"Hello null!");
+   }
 }

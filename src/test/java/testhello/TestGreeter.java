@@ -38,8 +38,8 @@ public class TestGreeter {
    @Test
    public void newtestJALGreeterPass()
    {
-	  assertEquals(g.getName(), "");
-	  g.setName("Josh");
+	  assertEquals(g.getName(), "Josh");
+	  g.setName("");
       assertEquals(g.sayHello(),"Hello Josh!");
    }
 }

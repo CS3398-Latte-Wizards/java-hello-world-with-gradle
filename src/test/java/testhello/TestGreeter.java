@@ -36,7 +36,7 @@ public class TestGreeter {
    } */
    
    @Test
-   public void newest<JLM>GreeterPass() 
+   public void newestJLMGreeterPass() 
    {
       g.setName("Justin Massey");
       assertEquals(g.getName(),"Justin Massey");

@@ -43,11 +43,11 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello Justin Massey!");
    }
    
-   /*@Test
+   @Test
    public void newestJLMGreeterFail() 
    {
       g.setName("Justin Massey");
       assertEquals(g.getName(),"");
       assertEquals(g.sayHello(),"Hello!");
-   }*/
+   }
 }

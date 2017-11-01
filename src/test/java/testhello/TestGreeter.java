@@ -34,4 +34,15 @@ public class TestGreeter {
       assertEquals(g.getName(),"World War");
       assertEquals(g.sayHello(),"Hello World War!");
    }
+   public void newestJAGreeterPass(){
+	   g.setName("Juan");
+	   if(g.getName() == "Juan"){
+		   System.out.println(g.sayHello());
+	   }
+	   else {
+		   g.setName("");
+		   System.out.println(g.sayHello());
+	   }
+	}
+	   
 }
